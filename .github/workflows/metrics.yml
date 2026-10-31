@@ -1,7 +1,7 @@
 name: Refresh profile metrics
 
 on:
-  # Refresh once daily at 06:00 IST.
+  # Daily refresh at 06:00 IST.
   schedule:
     - cron: "30 0 * * *"
   workflow_dispatch:
@@ -9,39 +9,45 @@ on:
 permissions:
   contents: write
 
+# A new manual run replaces any previous run still in progress.
 concurrency:
   group: profile-metrics
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Generate GitHub metrics dashboard
         uses: lowlighter/metrics@latest
         with:
+          # Classic PAT is required by the current v3 Metrics action.
           token: ${{ secrets.METRICS_TOKEN }}
+          # Use the built-in workflow token only to commit the generated SVG.
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
           user: Ayush-Iyer1611
           filename: github-metrics.svg
           template: classic
+
+          # Start with core profile data and two key visual plugins.
           base: header, activity, community, repositories, metadata
+          repositories: 25
+
           config_timezone: Asia/Kolkata
           config_display: columns
           config_padding: 12
+          config_order: base.header, isocalendar, languages, base.activity, base.community, base.repositories, base.metadata
 
-          # Visual analytics inspired by the reference dashboard.
+          # Half-year contribution calendar.
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
+          # Most-used languages with percentage and size information.
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_details: percentage, bytes-size
 
-          plugin_habits: yes
-          plugin_habits_days: 30
-          plugin_habits_charts: yes
-          plugin_habits_facts: yes
-
-          plugin_topics: yes
-          plugin_topics_limit: 12
-
+          # Surface plugin errors in the job rather than silently hiding them.
+          plugins_errors_fatal: yes
