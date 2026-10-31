@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title">
+  <title id="title">GitHub metrics dashboard is being configured</title>
+  <rect width="1200" height="260" rx="18" fill="#0d1117" stroke="#263242"/>
+  <text x="54" y="70" fill="#7ddbd0" font-family="monospace" font-size="14" letter-spacing="3">GITHUB / LIVE TELEMETRY</text>
+  <text x="54" y="124" fill="#e6edf3" font-family="Arial, sans-serif" font-size="31" font-weight="700">Metrics dashboard initializing</text>
+  <text x="54" y="164" fill="#9aa9ba" font-family="Arial, sans-serif" font-size="17">Add the METRICS_TOKEN repository secret, then run the “Refresh profile metrics” workflow.</text>
+  <g fill="none" stroke="#284454" stroke-width="1">
+    <rect x="54" y="194" width="250" height="34" rx="7"/>
+    <rect x="320" y="194" width="250" height="34" rx="7"/>
+    <rect x="586" y="194" width="250" height="34" rx="7"/>
+    <rect x="852" y="194" width="294" height="34" rx="7"/>
+  </g>
+  <g fill="#7ddbd0" font-family="monospace" font-size="11" letter-spacing="1">
+    <text x="72" y="216">CONTRIBUTIONS</text><text x="338" y="216">LANGUAGES</text>
+    <text x="604" y="216">CODING ACTIVITY</text><text x="870" y="216">ISOMETRIC CALENDAR</text>
+  </g>
+</svg>
