@@ -32,16 +32,16 @@ I like taking ideas from concept to implementation: building practical software,
       <p>A synthetic identity-security lab for identifying excessive service-account permissions, assessing configuration risk, and demonstrating safe containment with test-backed evidence.</p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Ayush-Iyer1611/spot">SPOT</a></h3>
-      <sub>WEB ENGINEERING · NEXT.JS · FIREBASE</sub>
-      <p>Smart Parking &amp; Organised Ticketing — a project exploring parking workflows, digital tickets, and QR-based verification.</p>
+      <h3><a href="https://github.com/Ayush-Iyer1611/BZR-Pitwall-System">BZR Pitwall System</a></h3>
+      <sub>FORMULA STUDENT · FASTAPI · REACT</sub>
+      <p>A telemetry replay and analysis platform for BZR Racing, with SD-card replay, dynamic sensor discovery, vehicle statistics, historical graphs, and automatic sensor clustering.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Ayush-Iyer1611/BZR-Pitwall-System">BZR Pitwall System</a></h3>
-      <sub>FORMULA STUDENT · DATA &amp; DASHBOARDING</sub>
-      <p>A motorsport-focused software project connected to Formula Student engineering and race-team data workflows.</p>
+      <h3><a href="https://github.com/Ayush-Iyer1611/spot">SPOT — Smart Parking &amp; Organised Ticketing</a></h3>
+      <sub>WEB DEVELOPMENT · NEXT.JS</sub>
+      <p>A web application project exploring more organised parking and digital ticketing workflows. Currently in development.</p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Ayush-Iyer1611/handwritten-digit-recognition">Handwritten Digit Recognition</a></h3>
