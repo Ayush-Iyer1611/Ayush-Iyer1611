@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/Ayush-Iyer1611"><img src="https://img.shields.io/github/followers/Ayush-Iyer1611?label=FOLLOWERS&style=for-the-badge&logo=github&logoColor=white&color=172b3a" alt="GitHub followers"></a>
   <a href="https://github.com/Ayush-Iyer1611?tab=repositories"><img src="https://img.shields.io/badge/FOCUS-BUILD%20%26%20RESEARCH-173f48?style=for-the-badge&logo=github&logoColor=white" alt="Build and research"></a>
-  <a href="https://github.com/Ayush-Iyer1611/RogueGuard"><img src="https://img.shields.io/github/stars/Ayush-Iyer1611/RogueGuard?label=ROGUeguard%20STARS&style=for-the-badge&logo=github&logoColor=white&color=24364d" alt="RogueGuard stars"></a>
+  <a href="https://github.com/Ayush-Iyer1611/RogueGuard"><img src="https://img.shields.io/github/stars/Ayush-Iyer1611/RogueGuard?label=ROGUEGUARD%20STARS&style=for-the-badge&logo=github&logoColor=white&color=24364d" alt="RogueGuard stars"></a>
 </p>
 
 <p align="center">
