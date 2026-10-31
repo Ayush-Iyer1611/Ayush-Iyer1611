@@ -45,5 +45,3 @@ jobs:
           plugin_topics: yes
           plugin_topics_limit: 12
 
-          # Keep the dashboard renderable if an optional plugin has no data.
-          plugins_errors_fatal: no
