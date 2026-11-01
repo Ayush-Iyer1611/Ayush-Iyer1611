@@ -16,7 +16,7 @@
 
 ## 01 / About
 
-I am a Computer Science and Engineering undergraduate interested in the mechanics behind modern software — how systems are designed, how applications behave, where security boundaries fail, and how computation changes at the quantum scale.
+I am a Computer Science and Engineering undergraduate interested in the mechanics behind modern software, how systems are designed, how applications behave, where security boundaries fail, and how computation changes at the quantum scale.
 
 I like taking ideas from concept to implementation: building practical software, investigating technical behaviour, and documenting the engineering decisions along the way.
 
